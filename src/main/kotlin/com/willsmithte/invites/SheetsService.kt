@@ -21,7 +21,6 @@ class SheetsService {
      */
 
     private val SCOPES = listOf(SheetsScopes.SPREADSHEETS)
-    //    private val CREDENTIALS_FILE_PATH = "/credentials.json"
     private val CREDENTIALS_FILE_PATH = "/rsvp-6eec7ad17d92.json"
     private val HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport()
     private val valueInputOption = "RAW"
