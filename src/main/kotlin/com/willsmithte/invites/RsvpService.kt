@@ -3,9 +3,11 @@ package com.willsmithte.invites
 import org.springframework.stereotype.Service
 
 @Service
-class RsvpService {
+class RsvpService(val sheetsService: SheetsService) {
+
+    private val sheetId = "1Be7ybK-gRQibfvnRoaqm56bZuSJaUXI_mdiZjiDqCwg"
 
     fun addRsvp(rsvp: Rsvp) {
-        println(rsvp)
+        sheetsService.addRow(sheetId, rsvp)
     }
 }
