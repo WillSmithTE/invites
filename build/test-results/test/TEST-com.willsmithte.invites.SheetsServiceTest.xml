@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.willsmithte.invites.SheetsServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-29T07:22:02" hostname="ip-192-168-1-102.ap-southeast-2.compute.internal" time="2.13">
+  <properties/>
+  <testcase name="should add a row to a spreadsheet()" classname="com.willsmithte.invites.SheetsServiceTest" time="2.13"/>
+  <system-out><![CDATA[[1Be7ybK-gRQibfvnRoaqm56bZuSJaUXI_mdiZjiDqCwg, Sheet1!A1:C4, {"spreadsheetId":"1Be7ybK-gRQibfvnRoaqm56bZuSJaUXI_mdiZjiDqCwg","updatedCells":3,"updatedColumns":3,"updatedRange":"Sheet1!A5:C5","updatedRows":1}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
